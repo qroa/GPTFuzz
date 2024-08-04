@@ -63,7 +63,7 @@ if __name__ == "__main__":
     parser.add_argument('--openai_key', type=str, default='', help='OpenAI API Key')
     parser.add_argument('--claude_key', type=str, default='', help='Claude API Key')
     parser.add_argument('--palm_key', type=str, default='', help='PaLM2 api key')
-    parser.add_argument('--model_path', type=str, default='gpt-3.5-turbo',
+    parser.add_argument('--model_path', type=str, default='gpt-3.5-turbo-0613',
                         help='mutate model path')
     parser.add_argument('--target_model', type=str, default='meta-llama/Llama-2-7b-chat-hf',
                         help='The target model, openai model or open-sourced LLMs')

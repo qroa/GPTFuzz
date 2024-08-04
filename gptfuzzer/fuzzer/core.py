@@ -181,6 +181,7 @@ class GPTFuzzer:
             self.current_jailbreak += prompt_node.num_jailbreak
             self.current_query += prompt_node.num_query
             self.current_reject += prompt_node.num_reject
+            print(self.current_query)
 
         self.select_policy.update(prompt_nodes)
 
